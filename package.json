@@ -1,21 +1,19 @@
 {
-  "name": "helpers",
+  "name": "auth-code-pkce",
   "version": "1.0.0",
-  "description": "Helper scripts for OpenID Connect/OAuth 2.0 workshop",
+  "description": "PKCE utility for OAuth 2.0 authorization code grant",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "json",
+    "oauth2",
     "oidc",
     "pkce",
-    "x-www-form-urlencoded"
+    "authorization code"
   ],
-  "author": "",
+  "author": "Daniel Wagner <daniel@wagners.name>",
   "license": "MIT",
   "dependencies": {
-    "base64url": "^3.0.1",
-    "express": "^4.18.1",
-    "querystring": "^0.2.1"
+    "base64url": "^3.0.1"
   }
 }
